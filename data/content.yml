@@ -1,0 +1,256 @@
+########################## hero area ##########################
+hero:
+  title: "Hasan Ata Arslan"
+
+  # animated text loop
+  occupations:
+    - 'Science Olympics Student'
+    - 'FRC Team Founding Captain'
+    - 'AI & Robotics Enthusiast'
+    - 'Student Researcher'
+    - 'Software Developer'
+    - "Mathematics Enthusiast"
+    - 'Problem Solver'
+
+  # hero background image
+  bg_image: 'images/background.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/gus_small.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/profile.png' 
+  title: 'ABOUT ME'
+  content: |
+    I am a high school student passionate about mathematics, artificial intelligence, robotics, and scientific research.
+    My journey began with robotics, where I discovered how software, engineering, and teamwork come together to solve real-world problems. Since then, I have expanded my interests into artificial intelligence, computational science, and mathematical thinking, always looking for opportunities to learn beyond the classroom.
+    I enjoy building projects that combine technical depth with practical impact, whether developing robot software, exploring AI-driven solutions, or participating in research and engineering competitions. Beyond technical work, I value leadership, collaboration, and continuous learning, and I strive to create meaningful solutions while helping others grow alongside me.
+  button:
+    enable: false
+    label: 'Explore My Journey'
+    link: '#about'
+    icon: 'fa-code'
+
+########################### Current Focus ###########################
+current_focus:
+  enable: true
+  title: 'Current Focus'
+  content: |
+    At the moment, I am focusing on strengthening my mathematical foundation, expanding my software engineering skills, and conducting research that connects artificial intelligence with real-world applications.
+  items:
+  - "Preparing for AP Calculus BC, Macro Economics and Micro Economics"
+  - "Building AI-driven software projects"
+  - "Leading FRC Team software development"
+  - "Studying computational drug discovery"
+  - "Developing research and engineering projects"
+
+########################### Featured Projects ######################
+featured_projects:
+  enable: true
+  title: 'Featured Projects'
+  intro: 'A few projects that reflect my interests and growth.'
+  projects:
+    - name: 'AI for Computational Drug Discovery'
+      description: 'Developing intelligent software that analyzes molecular information and assists early-stage drug discovery using artificial intelligence.'
+      details: |
+        This project combines Python, RDKit, molecular descriptors, and machine learning techniques to explore computational approaches to drug discovery.
+        My goal is to understand how AI can support researchers by accelerating data analysis and decision making during the early stages of pharmaceutical research.
+      link: '#'
+
+    - name: "FRC Team Software"
+      description: 'Designing reliable robot software for autonomous navigation, control systems, and competition performance.'
+      details: |
+        As a software lead within FIRST Robotics Competition, I develop robot software using Java and WPILib while collaborating with mechanical and electrical teams.
+        My work focuses on autonomous systems, software architecture, and creating maintainable code under tight competition deadlines.
+      link: '#'
+
+    - name: 'Personal Portfolio'
+      description: 'A continuously evolving portfolio documenting projects, research, and leadership experiences.'
+      details: |
+        This website serves as a central place to share my work, research interests, engineering projects, and experiences.
+        Rather than simply listing achievements, it reflects my learning journey and the ideas I continue to explore.
+      link: '#'
+
+########################### FIRST Robotics #########################
+first_robotics:
+  enable: true
+  title: 'FIRST Robotics Competition'
+  content: |
+    FIRST Robotics Competition has been one of the most influential experiences in my academic and personal development.
+    It has strengthened my technical skills, leadership abilities, and appreciation for collaborative engineering.
+  items:
+  - "Software architecture and robot programming"
+  - "Autonomous systems and computer vision"
+  - "Technical leadership and mentoring"
+  - "Engineering collaboration under competition deadlines"
+  - "Building sustainable robotics teams"
+
+########################### Research ###############################
+research:
+  enable: true
+  title: 'Research'
+  content: |
+    I am particularly interested in interdisciplinary research where mathematics, artificial intelligence, and engineering come together to solve meaningful problems.
+    My current interests include AI applications in healthcare, robotics, and computational science.
+  items:
+  - "Artificial Intelligence"
+  - "Computational Drug Discovery"
+  - "Robotics Software"
+  - "Computer Vision"
+  - "Mathematical Modeling"
+
+########################### Education ##############################
+education:
+  enable: true
+  title: 'Education'
+  items:
+    - title: 'High School'
+      items:
+        - 'Sehit Ilhan Varank Science High School, Istanbul, Turkey'
+        - 'Graduation Year: 2029'
+    - title: 'Science & Art Center'
+      items:
+        - 'Istanbul Fuat Sezgin Science & Art Center, Istanbul, Turkey'
+        - 'Graduation Year: 2029'
+    - title: 'Deneyap Technology Workshop'
+      items:
+        - 'Deneyap Technology Workshop Maltepe, Istanbul, Turkey'
+        - 'Graduation Year: 2025'
+    - title: 'AP Courses'
+      items:
+        - 'AP Computer Science A | Score : 4'
+        - 'AP Calculus BC | Score : ?'
+        - 'AP Macro Economics | Score : ?'
+        - 'AP Micro Economics | Score : ?' 
+    - title: 'Academic Programs'
+      items:
+        - 'Nesin Mathematics Village'
+        - 'ITU Winter School'
+        - 'Deneyap Technology Workshop'
+        - 'USC Pre-College Program: Introduction to Cybersecurity'
+    - title: 'Certifications'
+      items:
+        - 'Trinity College London Grade 8'
+        - 'Kaggle Learn Certificates'
+        - 'Deneyap Technology Workshop Certificates'
+
+########################### Experience ##############################
+experience:
+  enable: true
+  title: 'Experience & Achievements'
+  items:
+    - title: 'FIRST Robotics Competition'
+      items:
+        - title: 'FRC Team 10383 Robistim'
+          items:
+            - title: 'Head of Software Department'
+            - title: 'Rookie All-Star Award (2025)'
+            - title: 'Marmara Regional Semifinalist (2026)'
+        - title: 'FRC Team Varank Canarys'
+          items:
+            - title: 'Founding Captain'
+    - title: 'Science Olympiads'
+      items:
+        - title: 'Mathematics Olympiad'
+        - title: 'Informatics Olympiad'
+        - title: 'Olympiad Preparation'
+    - title: 'Other Competitions'
+      items:
+        - title: 'TÜBİTAK'
+        - title: 'TEKNOFEST'
+        - title: 'World Robot Olympiad'
+        - title: 'FIRST LEGO League'
+    - title: 'Leadership'
+      items:
+        - title: 'Software Leadership'
+        - title: 'Mentoring'
+        - title: 'Team Building'
+
+############################### Skill #################################
+skill:
+  enable: true
+  title: 'Skills'
+  items:
+    - title: 'Programming'
+      items:
+        - 'Python'
+        - 'Java'
+        - 'C'
+        - 'C++'
+        - 'C#'
+        - 'Android Studio'
+        - 'Dart'
+    - title: 'Artificial Intelligence'
+      items:
+        - 'Machine Learning'
+        - 'RDKit'
+    - title: 'Robotics'
+      items:
+        - 'FRC Software (Java WPILib)'
+        - 'Command-Based Programming'
+        - 'Computer Vision'
+        - 'Limelight'
+        - 'PhotonVision'
+    - title: 'Mathematics'
+      items:
+        - 'Calculus'
+        - 'Problem Solving'
+        - 'Mathematical Proof'
+    - title: 'Soft Skills'
+      items:
+        - 'Leadership'
+        - 'Teamwork'
+        - 'Communication'
+        - 'Project Management'
+
+########################## Extracurricular #################################
+extracurricular:
+  enable: true
+  title: 'Extracurricular Activities'
+  items:
+    - title: 'Electric Guitar'
+      items:
+        - 'Trinity College London Grade 8 (2025)'
+        - 'Rockschool Electric Guitar Grade 2 (2023)'
+    - title: 'Reading'
+      items:
+        - 'Mathematics'
+        - 'Adventure'
+        - 'Science'
+        - 'Economy'
+    - title: 'Personal Interests'
+      items:
+        - 'Licensed Chess Player'
+
+########################## Blog ###################################
+blog:
+  enable: true
+  title: 'Blog'
+  intro: 'You can add your articles here whenever you want.'
+  posts:
+    - title: 'My first article'
+      date: '2026-07-22'
+      summary: 'Write your first blog post here.'
+      details: |
+        My first blog.
+      link: '#'
+    - title: 'Another update'
+      date: '2026-07-22'
+      summary: 'Add a second post whenever you are ready.'
+      details: |
+        My second blog.
+      link: '#'
+    - title: 'Yet Another Blog Post'
+      date: '2026-07-22'
+      summary: 'Add a third post whenever you are ready.'
+      details: |
+        My third blog.
+      link: '#'
+
+########################## Contact #################################
+contact:
+  enable: true
+  title: 'Contact'
+  content: |
+    If you want to get in touch, feel free to reach out through the social links below.
