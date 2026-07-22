@@ -138,7 +138,7 @@ education:
 ########################### Experience ##############################
 experience:
   enable: true
-  title: 'Experience & Achievements'
+  title: 'Experience'
   items:
     - title: 'FIRST Robotics Competition'
       items:
@@ -207,7 +207,7 @@ skill:
 ########################## Extracurricular #################################
 extracurricular:
   enable: true
-  title: 'Extracurricular Activities'
+  title: 'Extracurricular'
   items:
     - title: 'Electric Guitar'
       items:

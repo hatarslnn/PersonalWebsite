@@ -64,29 +64,34 @@ URL = "#research"
 weight = 6
 
 [[menu.main]]
+name = "Education"
+URL = "#education"
+weight = 7
+
+[[menu.main]]
 name = "Experience"
 URL = "#experience"
-weight = 7
+weight = 8
 
 [[menu.main]]
 name = "Skills"
 URL = "#skills"
-weight = 8
+weight = 9
 
 [[menu.main]]
-name = "Awards & Competitions"
-URL = "#awards"
-weight = 9
+name = "Extracurricular"
+URL = "#extracurricular"
+weight = 10
 
 [[menu.main]]
 name = "Blog"
 URL = "#blog"
-weight = 10
+weight = 11
 
 [[menu.main]]
 name = "Contact"
 URL = "#contact"
-weight = 11
+weight = 12
 
 
 #################### default parameters ################################
