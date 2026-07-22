@@ -1,0 +1,53 @@
+{{- $section := .section -}}
+{{- if and $section $section.items -}}
+<div class="structured-card">
+  <div class="structured-card-body">
+    {{- range $section.items }}
+    {{- if .title }}
+    <div class="structured-card-item">
+      <div class="structured-card-item-title">{{ .title }}</div>
+      {{- with .items }}
+      <div class="structured-card-subitems">
+        {{- range . }}
+        {{- if reflect.IsMap . }}
+        <div class="structured-card-subitem structured-card-subitem-group">
+          <div class="structured-card-node-title">{{ .title }}</div>
+          {{- with .items }}
+          <div class="structured-card-node-children">
+            {{- range . }}
+            {{- if reflect.IsMap . }}
+            <div class="structured-card-node-leaf structured-card-node-leaf-group">
+              <div class="structured-card-node-title">{{ .title }}</div>
+              {{- with .items }}
+              <div class="structured-card-node-children">
+                {{- range . }}
+                {{- if reflect.IsMap . }}
+                <div class="structured-card-node-leaf structured-card-node-leaf-group">
+                  <div class="structured-card-node-title">{{ .title }}</div>
+                </div>
+                {{- else }}
+                <div class="structured-card-node-leaf">{{ . }}</div>
+                {{- end }}
+                {{- end }}
+              </div>
+              {{- end }}
+            </div>
+            {{- else }}
+            <div class="structured-card-node-leaf">{{ . }}</div>
+            {{- end }}
+            {{- end }}
+          </div>
+          {{- end }}
+        </div>
+        {{- else }}
+        <div class="structured-card-subitem">{{ . }}</div>
+        {{- end }}
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+    {{- end }}
+    {{- end }}
+  </div>
+</div>
+{{- end }}

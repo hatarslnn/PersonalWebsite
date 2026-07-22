@@ -1,0 +1,23 @@
+{{- $items := .items | default (slice) -}}
+{{- $title := .title | default "" -}}
+{{- if $items -}}
+<div class="structured-card">
+  {{- if $title }}
+  <div class="structured-card-title">{{ $title }}</div>
+  {{- end }}
+  <div class="structured-card-body">
+    {{- range $items }}
+    <div class="structured-card-item">
+      <div class="structured-card-item-title">{{ .title }}</div>
+      {{- if .items }}
+      <div class="structured-card-subitems">
+        {{- range .items }}
+        <div class="structured-card-subitem">{{ . }}</div>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</div>
+{{- end }}

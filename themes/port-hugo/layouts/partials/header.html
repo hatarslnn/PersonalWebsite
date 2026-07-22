@@ -1,0 +1,50 @@
+<section class="header" id="home">
+  {{ if .Site.Params.enable_logo }}
+  <div class="logo">
+    <img
+      class="img-fluid"
+      src="{{ .Site.Params.logo_light | relURL }}"
+      alt="{{ .Site.Title }}"
+    />
+  </div>
+  {{ end }} {{ with .Site.Data.content.hero }}
+  <div class="hero-image">
+    {{ if ne .mobile_bg_image "" }}
+    <img
+      class="d-none d-md-block"
+      src="{{ .bg_image | relURL }}"
+      alt="background"
+    /><img
+      class="d-md-none"
+      src="{{ .mobile_bg_image | relURL }}"
+      alt="background"
+    />{{ else }} <img src="{{ .bg_image | relURL }}" alt="background" />{{ end
+    }}
+  </div>
+  <div class="container">
+    <div class="row content">
+      <div
+        class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container"
+      >
+        <div class="head-holder">
+          <h1 class="introduction">{{ .title | markdownify | emojify }}</h1>
+          <p style="font-size: 20px; max-width: 700px; margin-top: 12px; color: #e2e8f0;">Student | Researcher | Robotics & AI Enthusiast</p>
+          <div class="animated-text">
+            <strong class="cd-headline clip">
+              <span class="cd-words-wrapper">
+                {{ range $index, $elements:= .occupations }} {{ if eq $index 0
+                }}
+                <b class="is-visible">{{ . }}</b>{{ else }}<b>{{ . }}</b>{{ end
+                }} {{ end }}
+              </span>
+            </strong>
+          </div>
+          {{ if .button.enable }} {{ with .button }}
+          <a class="hireMe button" href="{{ .link }}">{{ .label }}</a>
+          {{ end }} {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</section>
