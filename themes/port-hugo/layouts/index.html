@@ -27,6 +27,58 @@
     </div>
     {{ end }} {{ end }}
 
+    {{ if .Site.Data.content.music.enable }} {{ with .Site.Data.content.music }}
+    <div class="row mt-5" id="music">
+      <div class="col-12">
+        <h2 style="font-size: 1.9rem;">{{ .title }}</h2>
+        <p>{{ .content | markdownify }}</p>
+        <div class="structured-card music-card">
+          <div class="structured-card-body">
+            {{ range .studies }}
+            <div class="structured-card-item">
+              <div class="structured-card-item-title">{{ . }}</div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <div class="topic-photo-grid">
+          {{ range .images }}
+          <div class="topic-photo-card">
+            {{ with .image }}<img src="{{ . | relURL }}" alt="{{ $.alt }}" />{{ else }}<div class="topic-photo-placeholder">Add photo</div>{{ end }}
+            <p>{{ .caption }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }} {{ end }}
+
+    {{ if .Site.Data.content.science_technology.enable }} {{ with .Site.Data.content.science_technology }}
+    <div class="row mt-5" id="science-technology">
+      <div class="col-12">
+        <h2 style="font-size: 1.9rem;">{{ .title }}</h2>
+        <p>{{ .content | markdownify }}</p>
+        <div class="structured-card science-card">
+          <div class="structured-card-body">
+            {{ range .studies }}
+            <div class="structured-card-item">
+              <div class="structured-card-item-title">{{ . }}</div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        <div class="topic-photo-grid">
+          {{ range .images }}
+          <div class="topic-photo-card">
+            {{ with .image }}<img src="{{ . | relURL }}" alt="{{ $.alt }}" />{{ else }}<div class="topic-photo-placeholder">Add photo</div>{{ end }}
+            <p>{{ .caption }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }} {{ end }}
+
     {{ if .Site.Data.content.current_focus.enable }} {{ with .Site.Data.content.current_focus }}
     <div class="row mt-5" id="current-focus">
       <div class="col-12">
@@ -186,6 +238,28 @@
           </div>
           {{ end }}
         </div>
+      </div>
+    </div>
+    {{ end }} {{ end }}
+
+    {{ if .Site.Data.content.gallery.enable }} {{ with .Site.Data.content.gallery }}
+    <div class="row mt-5" id="gallery">
+      <div class="col-12">
+        <h2 style="font-size: 1.9rem;">{{ .title }}</h2>
+        <p>{{ .intro | markdownify }}</p>
+        {{ range .categories }}
+        <div class="gallery-category">
+          <h3>{{ .name }}</h3>
+          <div class="gallery-grid">
+            {{ range .images }}
+            <figure class="gallery-item">
+              {{ with .image }}<img src="{{ . | relURL }}" alt="{{ $.alt }}" />{{ else }}<div class="gallery-placeholder">Add photo</div>{{ end }}
+              <figcaption>{{ .caption }}</figcaption>
+            </figure>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
       </div>
     </div>
     {{ end }} {{ end }}

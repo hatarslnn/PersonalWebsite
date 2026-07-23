@@ -6,7 +6,7 @@ hero:
   occupations:
     - 'Science Olympics Student'
     - 'FRC Team Founding Captain'
-    - 'AI & Robotics Enthusiast'
+    - 'Technology Enthusiast'
     - 'Student Researcher'
     - 'Software Developer'
     - "Mathematics Enthusiast"
@@ -31,6 +31,44 @@ about:
     label: 'Explore My Journey'
     link: '#about'
     icon: 'fa-code'
+
+########################### Music ###################################
+music:
+  enable: true
+  title: 'Music'
+  content: |
+    Music is an important part of my life. I play electric guitar and continue developing my musical skills through structured practice and performances.
+  studies:
+    - 'Electric Guitar'
+    - 'Trinity College London Grade 8'
+    - 'Rockschool Electric Guitar Grade 2'
+  images:
+    - image: ''
+      alt: 'Add a music photo'
+      caption: 'Add a rehearsal, performance, or instrument photo'
+    - image: ''
+      alt: 'Add another music photo'
+      caption: 'Add another music memory'
+
+########################### Science & Technology ###################
+science_technology:
+  enable: true
+  title: 'Science & Technology'
+  content: |
+    This is a separate space for my scientific interests, engineering work, artificial intelligence projects, robotics, and research.
+  studies:
+    - 'Artificial Intelligence'
+    - 'Robotics Software'
+    - 'Computational Drug Discovery'
+    - 'Computer Vision'
+    - 'Mathematical Modeling'
+  images:
+    - image: ''
+      alt: 'Add a science and technology photo'
+      caption: 'Add a project, laboratory, or research photo'
+    - image: ''
+      alt: 'Add another science and technology photo'
+      caption: 'Add another technology-related photo'
 
 ########################### Current Focus ###########################
 current_focus:
@@ -246,6 +284,52 @@ blog:
       details: |
         My third blog.
       link: '#'
+
+########################## Gallery ################################
+gallery:
+  enable: true
+  title: 'Gallery'
+  intro: 'A visual record of the projects, interests, competitions, and experiences that shape my journey.'
+  categories:
+    - name: 'Music'
+      images:
+        - image: ''
+          alt: 'Add a music gallery photo'
+          caption: 'Music and electric guitar'
+        - image: ''
+          alt: 'Add another music gallery photo'
+          caption: 'Practice or performance'
+    - name: 'FRC'
+      images:
+        - image: ''
+          alt: 'Add an FRC gallery photo'
+          caption: 'Robot build or competition day'
+        - image: ''
+          alt: 'Add another FRC gallery photo'
+          caption: 'Teamwork and engineering'
+    - name: 'Olympiads'
+      images:
+        - image: ''
+          alt: 'Add an olympiad gallery photo'
+          caption: 'Mathematics or informatics olympiad'
+        - image: ''
+          alt: 'Add another olympiad gallery photo'
+          caption: 'Competition or preparation'
+    - name: 'Research'
+      images:
+        - image: ''
+          alt: 'Add a research gallery photo'
+          caption: 'Research and computational science'
+    - name: 'Projects'
+      images:
+        - image: ''
+          alt: 'Add a project gallery photo'
+          caption: 'A featured software or engineering project'
+    - name: 'Education'
+      images:
+        - image: ''
+          alt: 'Add an education gallery photo'
+          caption: 'A school, course, or academic program'
 
 ########################## Contact #################################
 contact:
