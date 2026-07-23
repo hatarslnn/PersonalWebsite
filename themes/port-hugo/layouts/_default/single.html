@@ -1,14 +1,62 @@
 {{ define "main" }}
-  {{ partial "menu" . }}
+  {{- partial "menu.html" . -}}
+  {{- $section := index .Site.Data.content .Params.data_key -}}
 
-  <div class="under-menu col-lg-8 col-md-10 col-12 mx-auto post-container">
-    <h1>{{ .Title }}</h1>
-    <span class="date">Posted on: {{ .Date.Format "1/2/2006" }}</span>
-    <img src="{{ .Params.image }}" alt="{{ .Title }}" />
-    <div class="body">
-      {{ .Content }}
-    </div>
-  </div>
+  <main class="profile-page under-menu">
+    <article class="profile-page__article">
+      <a class="reading-back" href="{{ "/#explore" | relURL }}"><span aria-hidden="true">←</span> Back to home</a>
+      <header class="profile-page__header">
+        <p class="blog-eyebrow">{{ .Params.eyebrow | default "Portfolio" }}</p>
+        <h1>{{ .Title }}</h1>
+        {{ with $section.content }}<div class="profile-page__lead">{{ . | markdownify }}</div>{{ end }}
+        {{ with $section.intro }}<div class="profile-page__lead">{{ . | markdownify }}</div>{{ end }}
+      </header>
 
-  {{ partial "footer" . }}
+      {{ with $section.image }}<img class="profile-page__portrait" src="{{ . | relURL }}" alt="{{ $.Title }}" />{{ end }}
+
+      {{ with $section.projects }}
+        <div class="profile-projects">
+          {{ range . }}<section class="profile-project"><h2>{{ .name }}</h2><p>{{ .description }}</p>{{ with .details }}<div>{{ . | markdownify }}</div>{{ end }}</section>{{ end }}
+        </div>
+      {{ end }}
+
+      {{ with $section.studies }}
+        <ul class="profile-list">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+      {{ end }}
+
+      {{ with $section.images }}
+        <section class="profile-photo-section" aria-labelledby="photo-section-title">
+          <div class="profile-photo-section__heading">
+            <p class="blog-eyebrow">In pictures</p>
+            <h2 id="photo-section-title">{{ $section.photo_section_title | default "A visual perspective" }}</h2>
+          </div>
+          <div class="profile-photo-section__grid">
+            {{ range . }}
+              <figure>
+                {{ with .image }}<img src="{{ . | relURL }}" alt="{{ .alt }}" />{{ else }}<div class="profile-photo-section__placeholder"><span aria-hidden="true">+</span><small>Photo space</small></div>{{ end }}
+                <figcaption>{{ .caption }}</figcaption>
+              </figure>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+
+      {{ with $section.items }}
+        {{ if reflect.IsMap (index . 0) }}
+          {{ partial "modern-section.html" (dict "section" $section) }}
+        {{ else }}
+          <ul class="profile-list">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+        {{ end }}
+      {{ end }}
+
+      {{ with $section.categories }}
+        <div class="profile-gallery">
+          {{ range . }}<section><h2>{{ .name }}</h2><div class="profile-gallery__grid">{{ range .images }}<figure>{{ with .image }}<img src="{{ . | relURL }}" alt="{{ .alt }}" />{{ else }}<div class="profile-gallery__placeholder">Photo coming soon</div>{{ end }}<figcaption>{{ .caption }}</figcaption></figure>{{ end }}</div></section>{{ end }}
+        </div>
+      {{ end }}
+
+      {{ with .Content }}<div class="profile-page__content">{{ . }}</div>{{ end }}
+    </article>
+  </main>
+  {{- partial "footer.html" . -}}
 {{ end }}

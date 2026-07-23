@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Hasan Ata Arslan</title>
-		<link>//localhost:1313/</link>
+		<link>/</link>
 		<description>Recent content on Hasan Ata Arslan</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -10,6 +10,113 @@
 		
 		
 		
-			<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Another update</title>
+				<link>/blog/another-update/</link>
+				<pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/blog/another-update/</guid>
+				<description>&lt;p&gt;This is another example article. Each article lives in its own Markdown file, which keeps writing separate from the design of the website.&lt;/p&gt;&#xA;&lt;h2 id=&#34;publishing-a-new-post&#34;&gt;Publishing a new post&lt;/h2&gt;&#xA;&lt;p&gt;Create a new file in &lt;code&gt;content/blog&lt;/code&gt;, add a title, date, and description at the top, then write the article below it. The blog list will automatically show the newest posts first.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My first article</title>
+				<link>/blog/my-first-article/</link>
+				<pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/blog/my-first-article/</guid>
+				<description>&lt;p&gt;This is the first post in my blog. I will use this space to document the work I do, the questions I explore, and the lessons I learn along the way.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-want-to-share&#34;&gt;What I want to share&lt;/h2&gt;&#xA;&lt;p&gt;Some posts will be short progress notes; others may be deeper write-ups of a project, a competition, or a topic I am studying. The goal is to make the process as useful as the final result.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>About me</title>
+				<link>/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/about/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Beyond the classroom</title>
+				<link>/extracurricular/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/extracurricular/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Current focus</title>
+				<link>/current-focus/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/current-focus/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Education</title>
+				<link>/education/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/education/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Experience</title>
+				<link>/experience/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/experience/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Featured projects</title>
+				<link>/projects/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/projects/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>FIRST Robotics Competition</title>
+				<link>/frc/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/frc/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Gallery</title>
+				<link>/gallery/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/gallery/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Get in touch</title>
+				<link>/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/contact/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Music</title>
+				<link>/music/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/music/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Research</title>
+				<link>/research/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/research/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Science &amp; technology</title>
+				<link>/science-technology/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/science-technology/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Skills</title>
+				<link>/skills/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>/skills/</guid>
+				<description></description>
+			</item>
 	</channel>
 </rss>

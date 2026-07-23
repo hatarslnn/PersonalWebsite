@@ -13,9 +13,9 @@ hero:
     - 'Problem Solver'
 
   # hero background image
-  bg_image: 'images/background.jpg'
+  bg_image: 'images/mybg1.jpg'
   # optional mobile breakpoint background
-  mobile_bg_image: 'images/gus_small.jpg'
+  mobile_bg_image: 'images/mybg2.jpg'
 
 ########################### About ##################################
 about:
@@ -37,7 +37,10 @@ music:
   enable: true
   title: 'Music'
   content: |
-    Music is an important part of my life. I play electric guitar and continue developing my musical skills through structured practice and performances.
+    Music has been an important part of my life for more than 7.5 years. I play electric guitar and continue developing my musical skills through disciplined practice, performance, and curiosity.
+
+    My connection with the guitar began in second grade. My mathematics teacher used to write songs about the topics we were learning and compose them on guitar. Seeing new ideas turn into melodies made the instrument feel both creative and approachable — and that is what first drew me to it. Since then, music has remained a space where I can focus, express myself, and keep learning.
+  photo_section_title: 'Music in practice'
   studies:
     - 'Electric Guitar'
     - 'Trinity College London Grade 8'
@@ -56,6 +59,7 @@ science_technology:
   title: 'Science & Technology'
   content: |
     This is a separate space for my scientific interests, engineering work, artificial intelligence projects, robotics, and research.
+  photo_section_title: 'Ideas in progress'
   studies:
     - 'Artificial Intelligence'
     - 'Robotics Software'
@@ -264,7 +268,7 @@ extracurricular:
 blog:
   enable: true
   title: 'Blog'
-  intro: 'You can add your articles here whenever you want.'
+  intro: 'My blog posts.'
   posts:
     - title: 'My first article'
       date: '2026-07-22'

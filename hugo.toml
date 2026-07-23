@@ -40,63 +40,29 @@ weight = 1
 
 [[menu.main]]
 name = "About me"
-URL = "#about"
+URL = "/about/"
 weight = 2
 
 [[menu.main]]
-name = "Current Focus"
-URL = "#current-focus"
+name = "Music"
+URL = "/music/"
 weight = 3
 
 [[menu.main]]
-name = "Featured Projects"
-URL = "#featured-projects"
+name = "Science & Technology"
+URL = "/science-technology/"
 weight = 4
 
 [[menu.main]]
-name = "FRC"
-URL = "#frc"
+name = "Experience"
+URL = "/experience/"
 weight = 5
 
 [[menu.main]]
-name = "Research"
-URL = "#research"
+name = "Contact"
+URL = "/contact/"
 weight = 6
 
-[[menu.main]]
-name = "Education"
-URL = "#education"
-weight = 7
-
-[[menu.main]]
-name = "Experience"
-URL = "#experience"
-weight = 8
-
-[[menu.main]]
-name = "Skills"
-URL = "#skills"
-weight = 9
-
-[[menu.main]]
-name = "Extracurricular"
-URL = "#extracurricular"
-weight = 10
-
-[[menu.main]]
-name = "Blog"
-URL = "#blog"
-weight = 11
-
-[[menu.main]]
-name = "Gallery"
-URL = "#gallery"
-weight = 12
-
-[[menu.main]]
-name = "Contact"
-URL = "#contact"
-weight = 13
 
 
 #################### default parameters ################################
@@ -105,10 +71,11 @@ copyright = "Copyright Hasan Ata Arslan &copy;"
 # Meta data
 description = "Personal Portfolio"
 author = "Hasan Ata Arslan"
-favicon = "images/favicon.png"
+favicon = "images/hasan-a-favicon.svg"
 google_analytics = "G-ABCDEFG123"
-logo_light = "images/logo.svg"
-logo_dark = "images/logo-dark.svg"
+enable_logo = true
+logo_light = "images/hasan-a-logo.svg"
+logo_dark = "images/hasan-a-logo-dark.svg"
 
 # Preloader
 [params.preloader]

@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Hasan Ata Arslan</title><link>/blog/</link><description>Recent content in Blog on Hasan Ata Arslan</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Another update</title><link>/blog/another-update/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>/blog/another-update/</guid><description>&lt;p&gt;My second blog.&lt;/p&gt;</description></item><item><title>My first article</title><link>/blog/my-first-article/</link><pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate><guid>/blog/my-first-article/</guid><description>&lt;p&gt;My first blog.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Blog on Hasan Ata Arslan</title>
+		<link>/blog/</link>
+		<description>Recent content in Blog on Hasan Ata Arslan</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Another update</title>
+				<link>/blog/another-update/</link>
+				<pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/blog/another-update/</guid>
+				<description>&lt;p&gt;This is another example article. Each article lives in its own Markdown file, which keeps writing separate from the design of the website.&lt;/p&gt;&#xA;&lt;h2 id=&#34;publishing-a-new-post&#34;&gt;Publishing a new post&lt;/h2&gt;&#xA;&lt;p&gt;Create a new file in &lt;code&gt;content/blog&lt;/code&gt;, add a title, date, and description at the top, then write the article below it. The blog list will automatically show the newest posts first.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My first article</title>
+				<link>/blog/my-first-article/</link>
+				<pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>/blog/my-first-article/</guid>
+				<description>&lt;p&gt;This is the first post in my blog. I will use this space to document the work I do, the questions I explore, and the lessons I learn along the way.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-i-want-to-share&#34;&gt;What I want to share&lt;/h2&gt;&#xA;&lt;p&gt;Some posts will be short progress notes; others may be deeper write-ups of a project, a competition, or a topic I am studying. The goal is to make the process as useful as the final result.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

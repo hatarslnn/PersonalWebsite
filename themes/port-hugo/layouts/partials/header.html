@@ -40,8 +40,9 @@
             </strong>
           </div>
           <div class="hero-topic-links" aria-label="Main topics">
-            <a href="#music" class="hero-topic-link">Music</a>
-            <a href="#science-technology" class="hero-topic-link">Science &amp; Technology</a>
+            <a href="{{ "music/" | relURL }}" class="hero-topic-link">Music</a>
+            <a href="{{ "science-technology/" | relURL }}" class="hero-topic-link">Science &amp; technology</a>
+            <a href="#explore" class="hero-topic-link">Explore my world</a>
           </div>
           {{ if .button.enable }} {{ with .button }}
           <a class="hireMe button" href="{{ .link }}">{{ .label }}</a>
